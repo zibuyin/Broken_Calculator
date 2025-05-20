@@ -6,7 +6,9 @@ Swapped_Keys = {}
 value1 = -1
 value2 = -1
 
-
+"""
+First value in the dict is the "Shown Value" and the second value is the "Real Value"
+"""
 def Generate_Value2():
     
     value2 = random.randint(0,9) # Generate the first key swapped
