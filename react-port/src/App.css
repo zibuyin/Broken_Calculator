@@ -28,12 +28,28 @@ div#left {
 }
 
 div#middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
   margin: 0 20px;
   border-radius: 8px;
   height: 80vh;
   width: 500px;
   background-color: #ccc;
   border: 3px solid #222a;
+}
+
+div#middle > div {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  background-color: red;
+  border-radius: 8px;
+  border: 3px solid brown;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
 }
 
 div#right {
